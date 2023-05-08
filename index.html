@@ -1,803 +1,997 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-
-   <!--- Basic Page Needs
+<!--[if lt IE 8]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
-	<title>Web Porfolio</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <meta charset="utf-8" />
+    <title>Web Porfolio</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-   <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="yandex-verification" content="e8ef8e6710b3595a" />
+    <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
-   <!-- Script
+    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+    <script src="js/modernizr.js"></script>
 
-   <!-- Favicons
+    <!-- Favicons
 	================================================== -->
-	<!-- <link rel="shortcut icon" href="favicon.png" > -->
+    <!-- <link rel="shortcut icon" href="favicon.png" > -->
+  </head>
 
-</head>
-
-<body>
-
-   <!-- Header
+  <body>
+    <!-- Header
    ================================================== -->
-   <header id="home">
-
+    <header id="home">
       <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation"
+          >Show navigation</a
+        >
+        <a class="mobile-btn" href="#" title="Hide navigation"
+          >Hide navigation</a
+        >
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
+        <ul id="nav" class="nav">
+          <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#resume">Resume</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+          <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+        </ul>
+        <!-- end #nav -->
+      </nav>
+      <!-- end #nav-wrap -->
 
       <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">I'm Front-End Developer</h1>
-            <!-- <h3>I'm a  <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
+        <div class="banner-text">
+          <h1 class="responsive-headline">I'm Front-End Developer</h1>
+          <!-- <h3>I'm a  <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
             effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3> -->
-            <h3>
-               Results-driven freelance software developer, seeking to use proven <span>Vue</span> and <span>JavaScript</span> skills to
-               deliver coding excellence to Cryptoconic, Inc. Have developed <span>3</span> web apps. Contributed to <span>7</span>
-               <span><a href="https://github.com/Iimanbek">GitHub</a></span> projects and debugged <span>2</span> apps. Wrote Frontend code for <span>1</span> working business website.
-            </h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.facebook.com/iman.akylbekov.1/"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://twitter.com/IimanbekA"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://google.com"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/iimanbek-akylbekov-662030256/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/akylbekovv02/"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://t.me/Akylbekov02"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg></a></li>
-               <li><a href="https://github.com/Iimanbek"><i class="fa fa-github"></i></a></li>
-            </ul>
-         </div>
+          <h3>
+            Results-driven freelance software developer, seeking to use proven
+            <span>Vue</span> and <span>JavaScript</span> skills to deliver
+            coding excellence to Cryptoconic, Inc. Have developed
+            <span>3</span> web apps. Contributed to <span>7</span>
+            <span><a href="https://github.com/Iimanbek">GitHub</a></span>
+            projects and debugged <span>2</span> apps. Wrote Frontend code for
+            <span>1</span> working business website.
+          </h3>
+          <hr />
+          <ul class="social">
+            <li>
+              <a href="https://www.facebook.com/iman.akylbekov.1/"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/IimanbekA"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://google.com"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/iimanbek-akylbekov-662030256/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/akylbekovv02/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://t.me/Akylbekov02"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgb(255, 255, 255)"
+                >
+                  <path
+                    d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Iimanbek"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        <a class="smoothscroll" href="#about"
+          ><i class="icon-down-circle"></i
+        ></a>
       </p>
+    </header>
+    <!-- Header End -->
 
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
+    <!-- About Section
    ================================================== -->
-   <section id="about">
-
+    <section id="about">
       <div class="row">
+        <div class="three columns">
+          <img class="profile-pic" src="/images/profileImage.png" alt="" />
+        </div>
 
-         <div class="three columns">
+        <div class="nine columns main-col">
+          <h2>About Me</h2>
 
-            <img class="profile-pic"  src="/images/profileImage.png" alt="" />
+          <p>
+            Hi, my name is Iimanbek.
+            <br />
+            I am a talented, ambitious and hardworking individual, with broad
+            skills and experience in digital and Front-End Development leading
+            projects. Furthermore, I am adept at handling multiple tasks on a
+            daily basis competently and at working well under pressure. A key
+            strength is communication; building strong relationships with people
+            in order to deliver the best results.
+            <br />
+            <br />
+            Recently, I completed an Open degree also certified, including
+            Japanese Certification of complement internship project in
+            Japan(Naha city), also got
+            <a
+              href="https://drive.google.com/file/d/1ScNkDhOK4PAh3BkcG36EmQlqNT3EJpA8/view?usp=sharing"
+              ><span
+                >"Leveraging Services for Development:Prospects and
+                Policies"</span
+              ></a
+            >
+            from ABDInstitute certificate.
+          </p>
 
-         </div>
+          <div class="row">
+            <div class="columns contact-details">
+              <h2>Contact Details</h2>
+              <p class="address">
+                <span>Akylbekov Iimanbek</span><br />
+                <span>Kyrgyzstan, Bishkek<br /> </span>
+                <span>+996501099966</span><br />
+                <span>imanbek.akylbekov2017@gmail.com</span>
+              </p>
+            </div>
 
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>
-               Hi, my name is Iimanbek.
-               <br>
-               I am a talented, ambitious and hardworking individual, with broad skills and experience in digital and Front-End Development leading projects. Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.
-               A key strength is communication; building strong relationships with people in order to deliver the best results.
-               <br>
-               <br>
-               Recently, I completed an Open degree also certified, including Japanese Certification of complement internship project in Japan(Naha city), also got <a href="https://drive.google.com/file/d/1ScNkDhOK4PAh3BkcG36EmQlqNT3EJpA8/view?usp=sharing"><span>"Leveraging Services for Development:Prospects and Policies"</span></a> from ABDInstitute certificate.
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Akylbekov Iimanbek</span><br>
-						   <span>Kyrgyzstan, Bishkek<br>
-                     </span>
-						   <span>+996501099966</span><br>
-                     <span>imanbek.akylbekov2017@gmail.com</span>
-					   </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="./images/Iimanbek Akylbekov.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
+            <div class="columns download">
+              <p>
+                <a href="./images/Iimanbek Akylbekov.pdf" class="button"
+                  ><i class="fa fa-download"></i>Download Resume</a
+                >
+              </p>
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end .main-col -->
       </div>
+    </section>
+    <!-- About Section End-->
 
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
+    <!-- Resume Section
    ================================================== -->
-   <section id="resume">
-
+    <section id="resume">
       <!-- Education
       ----------------------------------------------- -->
       <div class="row education">
+        <div class="three columns header-col">
+          <h1><span>Education</span></h1>
+        </div>
 
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Bootcamp of Cool Developers</h3>
-                  <p class="info">Front-End developement from Codify Academy<span>&bull;</span> <em class="date">December 2022</em></p>
-                  <p>
-                     Bootcamp Codify helped me a lot in learning the basics of programming. Thanks to them, I managed not only to develop my hard skills, but also my soft skills. With the help of my mentor Danil, I was able to complete the course perfectly and gain the skills that I still use in projects.
-                  </p>
-               </div>
-            </div> <!-- item end -->
-         </div> <!-- main-col end -->
-      </div> <!-- End Education -->
+        <div class="nine columns main-col">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Bootcamp of Cool Developers</h3>
+              <p class="info">
+                Front-End developement from Codify Academy<span>&bull;</span>
+                <em class="date">December 2022</em>
+              </p>
+              <p>
+                Bootcamp Codify helped me a lot in learning the basics of
+                programming. Thanks to them, I managed not only to develop my
+                hard skills, but also my soft skills. With the help of my mentor
+                Danil, I was able to complete the course perfectly and gain the
+                skills that I still use in projects.
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
+        </div>
+        <!-- main-col end -->
+      </div>
+      <!-- End Education -->
       <!-- Work
       ----------------------------------------------- -->
       <div class="row work">
+        <div class="three columns header-col">
+          <h1><span>Work</span></h1>
+        </div>
 
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
+        <div class="nine columns main-col">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Zhakshy-Zhol Driving School</h3>
+              <p class="info">
+                Team Lead of Freelance project<span>&bull;</span>
+                <em class="date">January 2023 - Present</em>
+              </p>
+              <p>
+                Me and my team fulfilled all the requirements according to those
+                tasks. The project is to develop a personal brand and sell books
+                of their own production. Using Vue3, my team and I made a
+                landing page for the customer and wrote tests. Since everyone in
+                my team was new, including me, I took on the responsibility of
+                managing and distributing tasks and solving various project
+                bugs.
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
 
-         <div class="nine columns main-col">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Japanese Intership Project</h3>
+              <p class="info">
+                Intern in modern hotel<span>&bull;</span>
+                <em class="date">June 2022 - October 2022</em>
+              </p>
+              <p>
+                I was in Intership project, where i got relocation support and
+                paid almost all fees inluding flight tickets. I was learning
+                Japanese and got experience in tourism and in IT helping to
+                workers
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
 
-            <div class="row item">
-
-               <div class="twelve columns">
-                  <h3>Zhakshy-Zhol Driving School</h3>
-                  <p class="info">Team Lead of Freelance project<span>&bull;</span> <em class="date">January 2023 - Present</em></p>
-                  <p>
-                     Me and my team fulfilled all the requirements according to those tasks. The project is to develop a personal brand and sell books of their own production. Using Vue3, my team and I made a landing page for the customer and wrote tests. Since everyone in my team was new, including me, I took on the responsibility of managing and distributing tasks and solving various project bugs.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-            
-            <div class="row item">
-
-               <div class="twelve columns">
-                  <h3>Japanese Intership Project</h3>
-                  <p class="info">Intern in modern hotel<span>&bull;</span> <em class="date">June 2022 - October 2022</em></p>
-                  <p>
-                     I was in Intership project, where i got relocation support and paid almost all fees inluding flight tickets. I was learning Japanese and got experience in tourism and in IT helping to workers 
-                  </p>
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>Movie Site</h3>
-                  <p class="info">Front-End Developer <span>&bull;</span> <em class="date">December 2022  - Present</em></p>
-                  <p>
-                     This is one of my first projects in which the site template matches the look of Netflix but not completely. The APIs (TV.Maze) I used had their limitations and all I could do with them I did. For technical parts, Vue3 and Pinia Store were used here, I made the routes dynamic and a straightforward movie site. If you are interested in this you can check it in my GitHub profile.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Movie Site</h3>
+              <p class="info">
+                Front-End Developer <span>&bull;</span>
+                <em class="date">December 2022 - Present</em>
+              </p>
+              <p>
+                This is one of my first projects in which the site template
+                matches the look of Netflix but not completely. The APIs
+                (TV.Maze) I used had their limitations and all I could do with
+                them I did. For technical parts, Vue3 and Pinia Store were used
+                here, I made the routes dynamic and a straightforward movie
+                site. If you are interested in this you can check it in my
+                GitHub profile.
+              </p>
+            </div>
+          </div>
+          <!-- item end -->
+        </div>
+        <!-- main-col end -->
+      </div>
+      <!-- End Work -->
 
       <!-- Skills
       ----------------------------------------------- -->
       <div class="row skill">
+        <div class="three columns header-col">
+          <h1><span>Skills</span></h1>
+        </div>
 
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
+        <div class="nine columns main-col">
+          <div class="bars">
+            <ul class="skills">
+              <li><span class="bar-expand photoshop"></span><em>Vue</em></li>
+              <li>
+                <span class="bar-expand illustrator"></span><em>JavaScript</em>
+              </li>
+              <li>
+                <span class="bar-expand wordpress"></span><em>Firebase</em>
+              </li>
+              <li><span class="bar-expand css"></span><em>CSS</em></li>
+              <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+              <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+            </ul>
+          </div>
+          <!-- end skill-bars -->
+        </div>
+        <!-- main-col end -->
+      </div>
+      <!-- End skills -->
+    </section>
+    <!-- Resume Section End-->
 
-         <div class="nine columns main-col">
-				<div class="bars">
-
-				   <ul class="skills">
-					   <li><span class="bar-expand photoshop"></span><em>Vue</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>JavaScript</em></li>
-						<li><span class="bar-expand wordpress"></span><em>Firebase</em></li>
-						<li><span class="bar-expand css"></span><em>CSS</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
+    <!-- Portfolio Section
    ================================================== -->
-   <section id="portfolio">
-
+    <section id="portfolio">
       <div class="row">
+        <div class="twelve columns collapsed">
+          <h1>Check Out Some of My Works.</h1>
 
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Works.</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/coffee.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Coffee</h5>
-                              <p>Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+          <!-- portfolio-wrapper -->
+          <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-01" title="">
+                  <img alt="" src="images/portfolio/coffee.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Coffee</h5>
+                      <p>Illustrration</p>
+                    </div>
                   </div>
-          		</div> <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-02" title="">
+                  <img alt="" src="images/portfolio/console.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Console</h5>
+                      <p>Web Development</p>
+                    </div>
                   </div>
-          		</div> <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/judah.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-03" title="">
+                  <img alt="" src="images/portfolio/judah.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Judah</h5>
+                      <p>Webdesign</p>
+                    </div>
                   </div>
-          		</div> <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-04" title="">
+                  <img alt="" src="images/portfolio/into-the-light.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Into The Light</h5>
+                      <p>Photography</p>
+                    </div>
                   </div>
-          		</div> <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-05" title="">
+                  <img alt="" src="images/portfolio/farmerboy.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Farmer Boy</h5>
+                      <p>Branding</p>
+                    </div>
                   </div>
-          		</div> <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-06" title="">
+                  <img alt="" src="images/portfolio/girl.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Girl</h5>
+                      <p>Photography</p>
+                    </div>
                   </div>
-          		</div> <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-07" title="">
+                  <img alt="" src="images/portfolio/origami.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Origami</h5>
+                      <p>Illustrration</p>
+                    </div>
                   </div>
-          		</div> <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-08" title="">
+                  <img alt="" src="images/portfolio/retrocam.jpg" />
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Retrocam</h5>
+                      <p>Web Development</p>
+                    </div>
                   </div>
-          		</div>  <!-- item end -->
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+            <!-- item end -->
+          </div>
+          <!-- portfolio-wrapper end -->
+        </div>
+        <!-- twelve columns end -->
 
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
+        <!-- Modal Popup
 	      --------------------------------------------------------------- -->
 
-         <div id="modal-01" class="popup-modal mfp-hide">
+        <div id="modal-01" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-coffee.jpg"
+            alt=""
+          />
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+          <div class="description-box">
+            <h4>Coffee Cup</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"
+              ><i class="fa fa-tag"></i>Branding, Webdesign</span
+            >
+          </div>
 
-		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-01 End -->
 
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
+        <div id="modal-02" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-console.jpg"
+            alt=""
+          />
 
-	      </div><!-- modal-01 End -->
+          <div class="description-box">
+            <h4>Console</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"
+              ><i class="fa fa-tag"></i>Branding, Web Development</span
+            >
+          </div>
 
-         <div id="modal-02" class="popup-modal mfp-hide">
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-02 End -->
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+        <div id="modal-03" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-judah.jpg"
+            alt=""
+          />
 
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
-		      </div>
+          <div class="description-box">
+            <h4>Judah</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+          </div>
 
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-03 End -->
 
-	      </div><!-- modal-02 End -->
+        <div id="modal-04" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-intothelight.jpg"
+            alt=""
+          />
 
-         <div id="modal-03" class="popup-modal mfp-hide">
+          <div class="description-box">
+            <h4>Into the Light</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+          </div>
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-04 End -->
 
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
+        <div id="modal-05" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-farmerboy.jpg"
+            alt=""
+          />
 
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
+          <div class="description-box">
+            <h4>Farmer Boy</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"
+              ><i class="fa fa-tag"></i>Branding, Webdesign</span
+            >
+          </div>
 
-	      </div><!-- modal-03 End -->
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-05 End -->
 
-         <div id="modal-04" class="popup-modal mfp-hide">
+        <div id="modal-06" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-girl.jpg"
+            alt=""
+          />
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+          <div class="description-box">
+            <h4>Girl</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+          </div>
 
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-06 End -->
 
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
+        <div id="modal-07" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-origami.jpg"
+            alt=""
+          />
 
-	      </div><!-- modal-04 End -->
+          <div class="description-box">
+            <h4>Origami</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"
+              ><i class="fa fa-tag"></i>Branding, Illustration</span
+            >
+          </div>
 
-         <div id="modal-05" class="popup-modal mfp-hide">
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-07 End -->
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+        <div id="modal-08" class="popup-modal mfp-hide">
+          <img
+            class="scale-with-grid"
+            src="images/portfolio/modals/m-retrocam.jpg"
+            alt=""
+          />
 
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
+          <div class="description-box">
+            <h4>Retrocam</h4>
+            <p>
+              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh id elit.
+            </p>
+            <span class="categories"
+              ><i class="fa fa-tag"></i>Webdesign, Photography</span
+            >
+          </div>
 
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://srikrishnacommunication.com/Giridesigns.html" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <!-- Call-To-Action Section
-   ================================================== -->
-   <section id="call-to-action">
-
-      <div class="row">
-
-         <div class="two columns header-col">
-
-            <h1><span>Get Hosting.</span></h1>
-
-         </div>
-
-         <div class="seven columns">
-
-            <h2><span class="lead">Welcome to my page</span></h2>
-            <p><span class="lead">
-               I'd like to challenge you. What do you think comes from <br>
-               {} + [] and [] + {}, and why...  ?
-            </span></p>
-
-         </div>
-
-         <div class="three columns action">
-
-
-
-         </div>
-
+          <div class="link-box">
+            <a
+              href="http://srikrishnacommunication.com/Giridesigns.html"
+              target="_blank"
+              >Details</a
+            >
+            <a class="popup-modal-dismiss">Close</a>
+          </div>
+        </div>
+        <!-- modal-01 End -->
       </div>
+      <!-- row End -->
+    </section>
+    <!-- Portfolio Section End-->
 
-   </section> <!-- Call-To-Action Section End-->
-
-
-   <!-- Testimonials Section
+    <!-- Call-To-Action Section
    ================================================== -->
-   <section id="testimonials">
+    <section id="call-to-action">
+      <div class="row">
+        <div class="two columns header-col">
+          <h1><span>Get Hosting.</span></h1>
+        </div>
 
+        <div class="seven columns">
+          <h2><span class="lead">Welcome to my page</span></h2>
+          <p>
+            <span class="lead">
+              I'd like to challenge you. What do you think comes from <br />
+              {} + [] and [] + {}, and why... ?
+            </span>
+          </p>
+        </div>
+
+        <div class="three columns action"></div>
+      </div>
+    </section>
+    <!-- Call-To-Action Section End-->
+
+    <!-- Testimonials Section
+   ================================================== -->
+    <section id="testimonials">
       <div class="text-container">
+        <div class="row">
+          <div class="two columns header-col">
+            <h1><span>Client Testimonials</span></h1>
+          </div>
 
-         <div class="row">
+          <div class="ten columns flex-container">
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <blockquote>
+                    <p>
+                      Your work is going to fill a large part of your life, and
+                      the only way to be truly satisfied is to do what you
+                      believe is great work. And the only way to do great work
+                      is to love what you do. If you haven't found it yet, keep
+                      looking. Don't settle. As with all matters of the heart,
+                      you'll know.
+                    </p>
+                    <cite>Steve Jobs</cite>
+                  </blockquote>
+                </li>
+                <!-- slide ends -->
 
-            <div class="two columns header-col">
-
-               <h1><span>Client Testimonials</span></h1>
-
+                <li>
+                  <blockquote>
+                    <p>
+                      This is Photoshop's version of Lorem Ipsum. Proin gravida
+                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+                      quis bibendum auctor, nisi elit consequat ipsum, nec
+                      sagittis sem nibh id elit. Duis sed odio sit amet nibh
+                      vulputate cursus a sit amet mauris.
+                    </p>
+                    <cite>Mr. Adobe</cite>
+                  </blockquote>
+                </li>
+                <!-- slide ends -->
+              </ul>
             </div>
+            <!-- div.flexslider ends -->
+          </div>
+          <!-- div.flex-container ends -->
+        </div>
+        <!-- row ends -->
+      </div>
+      <!-- text-container ends -->
+    </section>
+    <!-- Testimonials Section End-->
 
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
+    <!-- Contact Section
    ================================================== -->
-   <section id="contact">
+    <section id="contact">
+      <div class="row section-head">
+        <div class="two columns header-col">
+          <h1><span>Get In Touch.</span></h1>
+        </div>
 
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">
-                     My Contacts
-                  </p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Akylbekov Iimanbek<br>
-						   Kyrgyzstan, Bishkek <br>
-						   Birimdik 227<br>
-						   <span>+996501099966</span>
-                     <br>
-						   <span>+996990900656</span>
-					   </p>
-
-				   </div>
-
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                           Got financial by MegaPay to my new project. I hope we can make it the best.
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                           I am going to pass my exams soon, so I gotta preapre.
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside>
-
+        <div class="ten columns">
+          <p class="lead">My Contacts</p>
+        </div>
       </div>
 
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
       <div class="row">
+        <div class="eight columns">
+          <!-- form -->
+          <form action="" method="post" id="contactForm" name="contactForm">
+            <fieldset>
+              <div>
+                <label for="contactName"
+                  >Name <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  value=""
+                  size="35"
+                  id="contactName"
+                  name="contactName"
+                />
+              </div>
 
-         <div class="twelve columns">
+              <div>
+                <label for="contactEmail"
+                  >Email <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  value=""
+                  size="35"
+                  id="contactEmail"
+                  name="contactEmail"
+                />
+              </div>
 
-            <ul class="social-links">
-               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <div>
+                <label for="contactSubject">Subject</label>
+                <input
+                  type="text"
+                  value=""
+                  size="35"
+                  id="contactSubject"
+                  name="contactSubject"
+                />
+              </div>
+
+              <div>
+                <label for="contactMessage"
+                  >Message <span class="required">*</span></label
+                >
+                <textarea
+                  cols="50"
+                  rows="15"
+                  id="contactMessage"
+                  name="contactMessage"
+                ></textarea>
+              </div>
+
+              <div>
+                <button class="submit">Submit</button>
+                <span id="image-loader">
+                  <img alt="" src="images/loader.gif" />
+                </span>
+              </div>
+            </fieldset>
+          </form>
+          <!-- Form End -->
+
+          <!-- contact-warning -->
+          <div id="message-warning">Error boy</div>
+          <!-- contact-success -->
+          <div id="message-success">
+            <i class="fa fa-check"></i>Your message was sent, thank you!<br />
+          </div>
+        </div>
+
+        <aside class="four columns footer-widgets">
+          <div class="widget widget_contact">
+            <h4>Address and Phone</h4>
+            <p class="address">
+              Akylbekov Iimanbek<br />
+              Kyrgyzstan, Bishkek <br />
+              Birimdik 227<br />
+              <span>+996501099966</span>
+              <br />
+              <span>+996990900656</span>
+            </p>
+          </div>
+
+          <div class="widget widget_tweets">
+            <h4 class="widget-title">Latest Tweets</h4>
+
+            <ul id="twitter">
+              <li>
+                <span>
+                  Got financial by MegaPay to my new project. I hope we can make
+                  it the best.
+                </span>
+                <b><a href="#">2 Days Ago</a></b>
+              </li>
+              <li>
+                <span>
+                  I am going to pass my exams soon, so I gotta preapre.
+                </span>
+                <b><a href="#">3 Days Ago</a></b>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- Contact Section End-->
+
+    <!-- footer
+   ================================================== -->
+    <footer>
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="social-links">
+            <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
-               <li><a href="https://www.facebook.com/iman.akylbekov.1/"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://twitter.com/IimanbekA"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://google.com"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/iimanbek-akylbekov-662030256/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/akylbekovv02/"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://t.me/Akylbekov02"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(90, 87, 87);"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg></a></li>
-               <li><a href="https://github.com/Iimanbek"><i class="fa fa-github"></i></a></li>
-            </ul>
+            <li>
+              <a href="https://www.facebook.com/iman.akylbekov.1/"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/IimanbekA"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://google.com"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/iimanbek-akylbekov-662030256/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/akylbekovv02/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://t.me/Akylbekov02"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgb(90, 87, 87)"
+                >
+                  <path
+                    d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"
+                  ></path></svg
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Iimanbek"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+          </ul>
 
-            <ul class="copyright">
-               <!-- <li>Ceevee &copy; Copyright 2016</li>
+          <ul class="copyright">
+            <!-- <li>Ceevee &copy; Copyright 2016</li>
                <li>Design by <a href="http://srikrishnacommunication.com/Giridesigns.html" title="Styleshout" target="_blank">Giri Designs</a></li>    -->
-                  <li><a href="https://youtu.be/vBWCphAu8ik">Enjoy your Life</a></li>
-            </ul>
+            <li><a href="https://youtu.be/vBWCphAu8ik">Enjoy your Life</a></li>
+          </ul>
+        </div>
 
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#home"
+            ><i class="icon-up-open"></i
+          ></a>
+        </div>
       </div>
+    </footer>
+    <!-- Footer End-->
 
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
+    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+    </script>
+    <script
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
-</body>
-
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
+  </body>
 </html>
